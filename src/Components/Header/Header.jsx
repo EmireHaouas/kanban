@@ -22,17 +22,20 @@ const Header = () => {
         <>
         <header className={theme ? "headerLight" : "headerDark"}>
             <div className="header_Pack1">
-            <img className="logoMobile" src={logoMobile} alt="logo" />
-            <h1 className={theme ? 'task_CategoriesLight' : 'task_CategoriesDark'}>Plateform Lunch</h1>
-            <img className="iconDown" src={iconDown} alt="arrow down icon" />
+              <img className="logoMobile" src={logoMobile} alt="logo" />
+              <h1 className={theme ? 'task_CategoriesLight' : 'task_CategoriesDark'}>Plateform Lunch</h1>
+              <img className="iconDown" src={iconDown} alt="arrow down icon" />
             </div>
             <div className="header_Pack2">
-            <div className="mobileAddTaskcontainer">
-            <img className="addTaskMobile" src={addTaskMobile} alt="add task" />
-            </div>
+            
+              <img className="addTaskMobile" src={addTaskMobile} alt="add task" />
+            
             <img className="verticalIcon" src={verticalEllipsisIcon} alt="vertical ellipsis" />
             </div>
         </header>
+        <div>
+            <button onClick={changeTheme}>{theme ? 'light mode' : 'dark mode'}</button>
+        </div>
         </>
     );
 }
