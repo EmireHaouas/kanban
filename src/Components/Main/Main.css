@@ -1,0 +1,40 @@
+.board{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    justify-content: space-evenly;
+}
+.mainLight{
+    background-color: #F4F7FD;
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+.mainDark{
+    background-color: #20212C;
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+.categories_Todo{
+    color: #828FA3;
+    font-size: 12px;
+    font-family: 'Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+.subTitle_Categories{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.oval{
+    margin-right: 10px;
+}
+.toDo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sidebarIcon{
+    cursor: pointer;
+}

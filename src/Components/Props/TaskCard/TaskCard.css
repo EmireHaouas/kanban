@@ -1,0 +1,52 @@
+.title_TaskLight{
+    color: #000112;
+    font-size: 15px;
+    font-family: 'Jakarta Sans', sans-serif;
+
+}
+.tittle_TaskDark{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Jakarta Sans', sans-serif;
+}
+.subtasks_CountLight{
+    color: #828FA3;
+    font-size: 12px;
+    font-family: 'Jakarta Sans', sans-serif;
+}
+.subtasks_CountDark{
+    color: #828FA3;
+    font-size: 12px;
+    font-family: 'Jakarta Sans', sans-serif;
+}   
+.cardLight{
+    width: auto;
+    border-width: 1px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+ 
+
+}
+.cardDark{
+    width: auto;
+    border-width: 1px;
+    padding-right: 35px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2B2C37;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}

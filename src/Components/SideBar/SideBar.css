@@ -1,0 +1,116 @@
+/* ThemeToggle.css */
+.theme-toggleLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #F4F7FD;
+    width: 80%;
+    align-self: center;
+    padding: 20px 0;
+    border-radius: 5px;
+  }
+  .theme-toggleDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #20212C;
+    width: 80%;
+    align-self: center;
+    padding: 20px 0;
+    border-radius: 5px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #635FC7;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #635FC7;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  body.dark-theme {
+    background-color: #121212;
+    color: white;
+  }
+  .sideBarLight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 100%;
+    padding-bottom: 800px;
+    position: absolute;
+    top: 93px;
+    width: 273px;
+}
+.sideBarDark{
+    background-color: #2B2C37;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 100%;
+    padding-bottom: 800px;
+    position: absolute;
+    top: 93px;
+    width: 273px;
+}
+.titleBoards{
+    font-family:'Jakarta Sans', sans-serif; 
+    font-weight: bold;
+    font-size: 12px;
+}
+.boardsList{
+    font-family:'Jakarta Sans', sans-serif; 
+    font-weight: bold;
+    font-size: 15px;
+}
+.sideBarContainerOpen{
+    height: 100%;
+    z-index: 1;
+
+}
+.sideBarContainerClose{ 
+    display: none;
+
+}
